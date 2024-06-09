@@ -1,0 +1,12 @@
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+  target: "Rings"
+
+model:
+  baseline_model: "models/baseline_model_abalone_gbr_model.joblib"
+  final_model: "models/abalone_gbr_model.joblib"
+
+logging:
+  log_path: "logs/app.log"
+  level: "INFO"

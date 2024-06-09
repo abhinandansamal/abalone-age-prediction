@@ -1,0 +1,16 @@
+name: abalone-age-prediction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.12
+  - numpy=1.25.2
+  - cython
+  - pandas=2.0.3
+  - seaborn=0.13.1
+  - matplotlib=3.7.1
+  - scipy=1.11.4
+  - scikit-learn=1.2.2
+  - PyYAML=6.0
+  - joblib=1.4.2
+  - pip
